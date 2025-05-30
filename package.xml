@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>libopen3d-dev</name>
+  <version>0.19.0</version>
+  <description>virtual package to map rosdep key 'libopen3d-dev' to 'open3d'</description>
+  <maintainer email="Christian.Rauch@unileoben.ac.at">Christian Rauch</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <depend>open3d</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
